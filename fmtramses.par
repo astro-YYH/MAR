@@ -1,6 +1,6 @@
-'/home/yang/ramses/FromWu/Wu_hydro/'	   path to folder containing the RAMSES simulation output
--17	   	   Output No. (negative for all up to there, e.g. '-100' means all from 1 to 100)
-1	   	   Number of CPU threads used for the RAMSES simulation
+'/home/yang/bonnpor/runs/plummer_sample/'	   path to folder containing the RAMSES simulation output
+-66	   	   Output No. (negative for all up to there, e.g. '-100' means all from 1 to 100)
+4	   	   Number of CPU threads used for the RAMSES simulation
 -1				Update mode (-1:overwrite old, 0:skip existing files, 1:continue and renumber (best avoid))
 1	0			COM reset (0:none, 1:pos, 2:vel, 3:both, negative:same, first run only), boxlen-reset
 1				sort mode (0:none, 1:ascending in order of RAMSES particle ID)
