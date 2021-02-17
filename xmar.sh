@@ -1,8 +1,8 @@
 #!/bin/bash
 
-path="/home/yang/ramses/FromWu/Wu_hydro/"  # path to folder containing the RAMSES simulation output
-N_out="17"  # total number of outputs from RAMSES sims
-n_thread="1"  # Number of CPU threads used for the RAMSES simulation
+path="/home/yang/bonnpor/runs/plummer_sample/"  # path to folder containing the RAMSES simulation output
+N_out="66"  # total number of outputs from RAMSES sims
+n_thread="4"  # Number of CPU threads used for the RAMSES simulation
 
 python modify_par.py ${path} ${N_out} ${n_thread}
 
