@@ -1,4 +1,4 @@
-# MAR
+# MAR-2.1
 
 This is a code for calculating Mass Accretion Rate from RAMSES simulations, developed by Yanhui Yang. It should be used together with *extract_por* developed by Ingo Thies.
 
