@@ -3,11 +3,9 @@
 import sys
 import numpy as np
 from mar_funs import *
-from matplotlib import pyplot as plt
 import glob
 
 # kpc  km/s  Msun 
-
 
 
 flist = sorted(glob.glob("./part*.asc")) 
@@ -25,7 +23,7 @@ while(i < n_in):
     pos_list, mass_list = get_part(flist[i])
     if i == 0:
         M_tot = np.sum(mass_list)
-        R = accretion_radius(M_tot)
+        R = 1e-5  # R = 0.01 pc = 1e-5 kpc
         # M_R = internal_M(R)
         print("%d particles." % len(mass_list))
         print("Total mass: %.5e Msun" % M_tot)
@@ -47,6 +45,7 @@ print("Accrretion rate list: %s" % AR_list)
 
 # write_rate
 write_AR(AR_list, TR_list, "accretion_rates.txt")
+
 
 
 
