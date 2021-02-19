@@ -1,6 +1,6 @@
-# MAR-2.1
+# MAR-2.2
 
-This is a code for calculating Mass Accretion Rate from RAMSES simulations, developed by Yanhui Yang. It should be used together with *extract_por* developed by Ingo Thies.
+This is a code for calculating Mass Accretion Rate from RAMSES simulations, developed by Yanhui Yang. It should be used together with *extract_por* developed by Ingo Thies. The accretion radius is set as 0.01 pc currently, which could be modified if needed. 
 
 ## Dependencies  
 - Python3
