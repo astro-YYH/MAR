@@ -7,7 +7,7 @@ This is a code for calculating Mass Accretion Rate from RAMSES simulations, deve
 - Shell
 - Whatever required by *extract_por*
 
-## Files inside ZIP archive  
+## Files inside TAR archive  
 - README.md
 - fmtramses.par (This parameter file is used by xpordata.x. Please use this file instead of the original one from *extract_por*, unless you want to set those parameters by yourself.)
 - MAR.py
